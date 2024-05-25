@@ -64,6 +64,7 @@ This will:
 - Generate vector embeddings for each chunk
 - Save the embeddings to a ChromaDB database
 
+![Alt text](/Screenshots/Embeddings.png)
 
 
 ## Query the Chroma DB.
@@ -77,5 +78,11 @@ This script will:
 - Create a prompt using the retrieved data chunks
 - Call the OpenAI API to generate a response
 - Print the response along with source references
+
+### Example
+
+![Alt text](/Screenshots/Example.png)
+![Alt text](/Screenshots/Retrieval.png)
+
 
 By using retrieval augmented generation, the app ensures that the responses are both relevant and grounded in the provided data. This can be particularly useful for applications like customer support, educational tools, and more.
